@@ -127,3 +127,10 @@ header small {
 #navigation li {
   list-style-type: none;
 }
+
+@media screen and (min-width: 600px) {
+  html {
+    /* 72px / 600 = 0.12 */
+    padding: 1.2631578947em 12%;
+  }
+}
