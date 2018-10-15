@@ -134,3 +134,15 @@ header small {
     padding: 1.2631578947em 12%;
   }
 }
+@media screen and (min-width: 780px) {
+  .agenda,
+  .assignments {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.2631578947em;
+    column-gap: 1.2631578947em;
+  }
+  .meeting {
+    background: yellow;
+  }
+}
